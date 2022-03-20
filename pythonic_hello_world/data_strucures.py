@@ -71,6 +71,7 @@
 # print(my_list ==my_other_list)
 # print(my_list is my_other_list)
 
+
 # a= [1,2,3]
 # b=a
 # print(a is b)
@@ -146,8 +147,8 @@
 # print(my_set)
 
 
-my_list = [1, 2, 3, 4, 4, 5]
-my_set=set(my_list)
-print(my_list)
-print(my_set)
-print(len(my_list) == len(my_set))
+# my_list = [1, 2, 3, 4, 4, 5]
+# my_set=set(my_list)
+# print(my_list)
+# print(my_set)
+# print(len(my_list) == len(my_set))
