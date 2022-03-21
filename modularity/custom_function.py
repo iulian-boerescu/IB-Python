@@ -8,8 +8,8 @@
 
 # def my_sum(nr1, nr2):
 #     print("sum of nr = ", nr1+nr2)
-#
-#
+
+
 # x=20
 # y=23
 # my_sum(x, y)
