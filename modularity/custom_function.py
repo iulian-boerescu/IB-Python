@@ -54,3 +54,67 @@
 #
 # f(*[1,2,3,4,5,6], **{"a1":1, "b1":2, "c1":3, "d1":4})
 
+def s(n):
+    if n == 0:
+        return 0
+
+    return n +s(n-1)
+
+
+
+
+# result = s(5)
+# print(result)
+
+
+
+
+
+# try:
+#     user_input = int(user_input)
+#     result = s(user_input)
+#     print(f"sum of numbers from 0 to {user_input} = {result}.")
+# except ValueError as e:
+#     print(f"Caught exceptiom: {e}")
+# except TypeError as e:
+#     print(f"Caught exceptiom: {e}")
+# else:
+#     print("the code in try was succ")
+# finally:
+#     print("i am available no mater what")
+# try_numeber=1
+#
+#
+# while True:
+#     if try_numeber > 3:
+#         break
+#
+#     elif try_numeber > 1:
+#         print(f'u have  {3- try_numeber +1} tries')
+#     user_input = input("give me you message: ")
+#     try:
+#         user_input=int(user_input)
+#     except ValueError:
+#         print(f'"{user_input}" is not a valid integer')
+#         continue
+#     else:
+#         break
+#
+#
+# if try_numeber > 3:
+#     print("u not able to provide a valid int")
+# else:
+#     result = s(user_input)
+#     print(f"sum of numbers from 0 to {user_input} = {result}.")
+
+a = 10
+
+def f():
+   # a="abc"
+    print(a)
+
+
+
+f()
+
+print(a)

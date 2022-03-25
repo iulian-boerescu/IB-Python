@@ -1,0 +1,1 @@
+GRETTINGS = 'hey, dear user'
